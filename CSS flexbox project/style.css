@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+img {
+}
+
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 40px;
+  padding-top: 80px;
+  font-weight: 700;
+  font-size: bold;
+  font-family: Big Shoulders Display;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 80px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: Lexend Deca;
+  letter-spacing: normal;
+  word-spacing: 0.2em;
+}
+
+.left-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 4em;
+  height: 70%;
+}
+.middle-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 4em;
+  height: 70%;
+}
+.right-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 4em;
+  height: 70%;
+}
+.left-content button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding: 1em;
+  background: transparent;
+  border-radius: 40px;
+  font-size: 15px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.middle-content button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding: 1em;
+  background: transparent;
+  border-radius: 40px;
+  font-size: 15px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.right-content button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding: 1em;
+  background: transparent;
+  border-radius: 40px;
+  font-size: 15px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.left-content button:hover {
+  color: hsl(31, 77%, 52%);
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+.middle-content button:hover {
+  color: hsl(184, 100%, 22%);
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+.right-content button:hover {
+  color: hsl(179, 100%, 13%);
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
